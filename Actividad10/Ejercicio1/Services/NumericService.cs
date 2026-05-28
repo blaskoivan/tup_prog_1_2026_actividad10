@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Actividad10
+namespace Ejercicio1.Services;
+
+public class NumericService
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
+
 }

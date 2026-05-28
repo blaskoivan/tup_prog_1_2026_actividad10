@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Ejemplo.Services;
 
 namespace Ejemplo
 {
     public partial class Form1 : Form
     {
+        NumericService
         public Form1()
         {
             InitializeComponent();
@@ -27,5 +29,7 @@ namespace Ejemplo
             this.Text = this.textBox1.Text;
 
         }
+
+        
     }
 }
